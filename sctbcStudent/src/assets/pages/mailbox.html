@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>AdminLTE | Mailbox</title>
+		<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+		<!-- bootstrap 3.0.2 -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<!-- font Awesome -->
+		<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+		<!-- Ionicons -->
+		<link href="../css/ionicons.min.css" rel="stylesheet" type="text/css" />
+		<!-- bootstrap wysihtml5 - text editor -->
+		<link href="../css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+		<!-- iCheck for checkboxes and radio inputs -->
+		<link href="../css/iCheck/minimal/blue.css" rel="stylesheet" type="text/css" />
+		<!-- Theme style -->
+		<link href="../css/AdminLTE.css" rel="stylesheet" type="text/css" />
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	</head>
+	<body class="skin-blue">
+		<!-- header logo: style can be found in header.less -->
+		<header class="header">
+			<a href="index.html" class="logo">
+				Sctbc
+			</a>
+		
+			<nav class="navbar navbar-static-top" role="navigation">
+		
+				<a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<div class="navbar-right">
+					<ul class="nav navbar-nav">
+						<li class="dropdown user user-menu">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<i class="glyphicon glyphicon-user"></i>
+								<span>Admin<i class="caret"></i></span>
+							</a>
+							<ul class="dropdown-menu">
+								<!-- User image -->
+								<li class="user-header bg-light-blue">
+									<img src="img/avatar3.png" class="img-circle" alt="User Image" />
+									<p>
+										Admin
+										<small>2021-5-8</small>
+									</p>
+								</li>
+								<!-- Menu Footer-->
+								<li class="user-footer">
+									<div class="pull-left">
+										<a href="#" class="btn btn-default btn-flat">个人信息</a>
+									</div>
+									<div class="pull-right">
+										<a href="#" class="btn btn-default btn-flat">推出登录</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="wrapper row-offcanvas row-offcanvas-left">
+			<!-- Left side column. contains the logo and sidebar -->
+			<aside class="left-side sidebar-offcanvas">
+				<!-- sidebar: style can be found in sidebar.less -->
+				<section class="sidebar">
+					<!-- Sidebar user panel -->
+					<div class="user-panel">
+						<div class="pull-left info">
+							<br />
+							<p>Hello, Admin</p>
+						</div>
+					</div>
+					<ul class="sidebar-menu">
+						<li class="active">
+							<a href="index.html">
+								<i class="fa fa-dashboard"></i> <span>首页</span>
+							</a>
+						</li>
+						<li class="treeview">
+							<a href="#">
+								<i class="fa fa-bar-chart-o"></i>
+								<span>班级</span>
+								<i class="fa fa-angle-left pull-right"></i>
+							</a>
+							<ul class="treeview-menu">
+								<li><a href="pages/charts/morris.html"><i class="fa fa-angle-double-right"></i> 班级信息</a>
+								</li>
+								<li><a href="pages/charts/flot.html"><i class="fa fa-angle-double-right"></i> 新增班级</a>
+								</li>
+							</ul>
+						</li>
+						<li class="treeview">
+							<a href="#">
+								<i class="fa fa-laptop"></i>
+								<span>个人信息</span>
+								<i class="fa fa-angle-left pull-right"></i>
+							</a>
+							<ul class="treeview-menu">
+								<li><a href="pages/UI/general.html"><i class="fa fa-angle-double-right"></i>修改个人信息</a>
+								</li>
+							</ul>
+						</li>
+						<li class="treeview">
+							<a href="#">
+								<i class="fa fa-edit"></i> <span>留言</span>
+								<i class="fa fa-angle-left pull-right"></i>
+							</a>
+							<ul class="treeview-menu">
+								<li><a href="pages/forms/general.html"><i class="fa fa-angle-double-right"></i> 我的留言</a>
+								</li>
+							</ul>
+						</li>
+			
+						<li>
+							<a href="pages/mailbox.html">
+								<i class="fa fa-envelope"></i> <span>邮件发送</span>
+							</a>
+						</li>
+						<li class="treeview">
+							<a href="#">
+								<i class="fa fa-folder"></i> <span>文件</span>
+								<i class="fa fa-angle-left pull-right"></i>
+							</a>
+							<ul class="treeview-menu">
+								<li><a href="pages/examples/invoice.html"><i
+											class="fa fa-angle-double-right"></i>文件列表</a></li>
+								<li><a href="pages/examples/login.html"><i class="fa fa-angle-double-right"></i>上传文件</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+			</aside>
+
+			<!-- Right side column. Contains the navbar and content of the page -->
+			<aside class="right-side">
+				<!-- Content Header (Page header) -->
+				<section class="content-header no-margin">
+					<h1 class="text-center">
+						发送邮件
+					</h1>
+				</section>
+
+				<!-- Main content -->
+				<section class="content">
+					<!-- MAILBOX BEGIN -->
+					<div class="mailbox row">
+						<div class="col-xs-12">
+							<div class="box box-solid">
+								<div class="box box-info">
+									<div class="box-header">
+										<i class="fa fa-envelope"></i>
+										<h3 class="box-title">发送邮件</h3>
+										<div class="pull-right box-tools">
+											<button class="btn btn-info btn-sm" data-widget="remove"
+												data-toggle="tooltip" title="Remove"><i
+													class="fa fa-times"></i></button>
+										</div>
+									</div>
+									<div class="box-body">
+										<form action="#" method="post">
+											<div class="form-group">
+												<input type="email" class="form-control" name="emailto"
+													placeholder="Email to:" />
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" name="subject"
+													placeholder="Subject" />
+											</div>
+											<div>
+												<textarea class="textarea" placeholder="Message"
+													style="width: 100%; height: 125px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+											</div>
+										</form>
+									</div>
+									<div class="box-footer clearfix">
+										<button class="pull-right btn btn-default" id="sendEmail">Send <i
+												class="fa fa-arrow-circle-right"></i></button>
+									</div>
+								</div>
+							</div><!-- /.box -->
+						</div><!-- /.col (MAIN) -->
+					</div>
+					<!-- MAILBOX END -->
+
+				</section><!-- /.content -->
+			</aside><!-- /.right-side -->
+		</div><!-- ./wrapper -->
+
+		<!-- COMPOSE MESSAGE MODAL -->
+		<!-- /.modal -->
+
+		<!-- jQuery 2.0.2 -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Bootstrap -->
+		<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+		<!-- AdminLTE App -->
+		<script src="../js/AdminLTE/app.js" type="text/javascript"></script>
+		<!-- Bootstrap WYSIHTML5 -->
+		<script src="../jsplugins//bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
+		<!-- iCheck -->
+		<script src="../jsplugins//iCheck/icheck.min.js" type="text/javascript"></script>
+		<!-- Page script -->
+		
+
+	</body>
+</html>

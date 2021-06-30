@@ -1,0 +1,15 @@
+/*charts标题*/
+#index-content #stuinfo-box-title{
+	font-size: 10px;
+}
+/*下拉框*/
+#index-content #stuinfo-box-title>#stuinfo-curriculum{
+	
+}
+#index-content #stuinfo-box-title>#stuinfo-task-info{
+	
+}
+/*折线图表*/
+#index-content #stuinfo-nav-tabs-custom{
+	display: none;
+}
